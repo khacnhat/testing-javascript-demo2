@@ -54,3 +54,5 @@ fabric.properties
 .idea/httpRequests
 
 node_modules
+coverage
+.nyc_output

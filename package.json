@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc --reporter=html --reporter=text mocha"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^6.0.0",
+    "nyc": "^13.3.0",
     "sinon": "^7.2.4"
   }
 }
